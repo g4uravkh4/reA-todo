@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-export function TodoInputForm(onSubmit) {
-  props.onSubmit;
+export function TodoInputForm({ onSubmit }) {
   const [newItem, setNewItem] = useState("");
+
   function handleSubmit(e) {
     e.preventDefault();
 
